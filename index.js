@@ -21,10 +21,12 @@ function main()
     let novel3 = new books("Where the Ink Flows, There I Shall Go.","99.9","poetry");
     
     let arrayOfTitles = ["There is No Dog","The Knife of Never Letting Go", "The Crimson Crown" ];
+    // you should have put novel1, novel2, and novel 3 in the array
    
     arrayOfTitles.forEach(function (element)
     {
         console.log(element)
+        // you are only printing the novel title strings
     })
     
     // arrayOfTitles.forEach(element);
